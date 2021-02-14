@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="add_new_user">Add new user</string>
+    <string name="some_thing_wrong">Something wrong happend</string>
+    <string name="delete_user">User deleting!!!</string>
+    <string name="sure_delete_user">Are you sure you want to delete user?</string>
+
+    <string name="email_pattern">Email: %s.</string>
+    <string name="gender_pattern">Gender: %s.</string>
+    <string name="status_pattern">Status: %s.</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_mail">Enter email</string>
+    <string name="create">Create</string>
+</resources>

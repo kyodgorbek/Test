@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/entry_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:inputType="textCapWords" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/entry_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_mail"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/create_user_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/create" />
+</LinearLayout>
